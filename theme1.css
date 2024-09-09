@@ -47,6 +47,11 @@
     background-color: #C0C0C0;
   }
 
+  strong, b {
+    color: #4F0E0E;
+    font-weight: bold;
+  }
+
   .about-me {
     display: flex;
     align-items: center;
@@ -75,3 +80,84 @@
     }
   }
 
+  .project-header {
+    text-align: center;
+    padding: 50px;
+}
+
+.project-header h1 {
+    font-size: 2.5em;
+}
+
+.project-header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Project tiles styling */
+.project {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px;
+    text-align: left;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project img {
+    max-width: 30%;
+    margin-left: 20px;
+    border-radius: 5px;
+    order: 2;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin: 16px 0;
+    order: 1;
+}
+
+.project p {
+    font-size: 1em;
+    color: #666;
+    order: 1;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 8px 16px;
+  background-color: #BB8760;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  order: 1;
+}
+
+a-link {
+  color: #4F0E0E;
+  text-decoration: underline;
+}
+
+a-link:hover {
+  color: #4F0E0E;
+  text-decoration: underline;
+}
+
+.project a:hover {
+  background-color: #45a049;
+}
+
+/* Section styling */
+.research-section, .other-projects-section {
+  padding: 20px;
+}
+
+.research-section h2, .other-projects-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
