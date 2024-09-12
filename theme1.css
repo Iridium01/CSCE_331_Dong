@@ -3,7 +3,7 @@
 
 .header {
     overflow: hidden;
-    background-color: #C0C0C0;
+    background-color: #707070;
     padding: 20px 10px;
   }
   
@@ -27,8 +27,8 @@
   
   /* Change the background color on mouse-over */
   .header a:not(.logo):hover {
-    background-color: #A9A9A9;
-    color: black;
+    background-color: #500000;
+    color: white;
   }
   
   /* Style the active/current link*/
@@ -42,15 +42,17 @@
     float: right;
   }
 
-  body {
-    font-family: "Figtree", sans-serif;
-    background-color: #C0C0C0;
-  }
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: #707070;
+}
 
-  strong, b {
-    color: #4F0E0E;
-    font-weight: bold;
-  }
+strong, b {
+  color: #500000;
+  font-weight: bold;
+}
+
+/* Landing Page styling */
 
   .about-me {
     display: flex;
@@ -62,6 +64,7 @@
   .about-me-headshot {
     max-width: 50%;
     margin-right: 20px;
+    border-radius: 8px;
   }
 
   .about-me-text {
@@ -80,84 +83,100 @@
     }
   }
 
+/* footer styling */
+  .footer {
+    background-color: #707070;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    border-radius: 10px;
+    width: 100%;
+    bottom: 0;
+}
+
+  .footer a {
+      color: #500000;
+      text-decoration: none;
+  }
+
+  /* Project styling */
+
   .project-header {
     text-align: center;
     padding: 50px;
-}
+  }
 
-.project-header h1 {
-    font-size: 2.5em;
-}
+    .project-header h1 {
+        font-size: 2.5em;
+        color: #000000;
+    }
 
-.project-header p {
-    font-size: 1.2em;
-    color: #666;
-}
+    .project-header p {
+        font-size: 1.2em;
+        color: #000000;
+    }
 
-/* Project tiles styling */
-.project {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 16px;
-    margin: 16px;
-    text-align: left;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+  /* Project tiles styling */
+  .project {
+      /* border: 1px solid #ddd; */
+      border-radius: 8px;
+      padding: 16px;
+      margin: 20px;
+      text-align: left;
+      background-color: #d1d1d1b0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
 
-.project img {
-    max-width: 30%;
-    margin-left: 20px;
-    border-radius: 5px;
-    order: 2;
-}
+    .project img {
+        max-width: 30%;
+        max-height: 15em;
+        margin-left: 20px;
+        border-radius: 5px;
+        order: 2;
+    }
 
-.project h3 {
-    font-size: 1.5em;
-    margin: 16px 0;
-    order: 1;
-}
+    .project h3 {
+        font-size: 1.5em;
+        margin: 16px 0;
+        order: 1;
+        color: #000000;
+    }
 
-.project p {
-    font-size: 1em;
-    color: #666;
-    order: 1;
-}
+    .project p {
+        font-size: 1em;
+        color: #3E3E3E;
+        order: 1;
+    }
 
-.project a {
-  display: inline-block;
-  margin-top: 8px;
-  padding: 8px 16px;
-  background-color: #BB8760;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  order: 1;
-}
+    .read-more {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 8px 16px;
+      background-color: #500000;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      order: 1;
+    }
 
-a-link {
-  color: #4F0E0E;
-  text-decoration: underline;
-}
+    .text-link {
+      color: #500000;
+      text-decoration: underline;
+    }
 
-a-link:hover {
-  color: #4F0E0E;
-  text-decoration: underline;
-}
+  /* Projects Section styling */
+  .research-section, .other-projects-section {
+    padding: 20px;
+  }
 
-.project a:hover {
-  background-color: #45a049;
-}
+  .research-section h2, .other-projects-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000000;
+  }
 
-/* Section styling */
-.research-section, .other-projects-section {
-  padding: 20px;
-}
-
-.research-section h2, .other-projects-section h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
-}
+/* Resume page styling */
