@@ -6,7 +6,6 @@ function toggleCSS() {
 
     var curr_logo = document.getElementById("toggle-style-button").innerHTML;
     var new_logo = (curr_logo === "🤘") ? "👍" : "🤘";
-    alert(curr_logo + " " + new_logo);
     document.getElementById("toggle-style-button").innerHTML = new_logo;
 
     localStorage.setItem("theme", new_file);
@@ -14,7 +13,7 @@ function toggleCSS() {
 }
 
 window.onload = function() {
-    var stylesheet = localStorage.getItem("theme");
+    var stylesheet = (localStorage.getItem("theme") === null) ? "./theme1.css" : localStorage.getItem("theme");
     var style = document.getElementById("css_style");
     var logo = localStorage.getItem("logo");
     document.getElementById("toggle-style-button").innerHTML = (stylesheet === "./theme2.css") ? "🤘" : "👍";
