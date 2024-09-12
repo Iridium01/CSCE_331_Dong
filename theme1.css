@@ -100,83 +100,114 @@ strong, b {
       text-decoration: none;
   }
 
-  /* Project styling */
+/* Project styling */
 
-  .project-header {
-    text-align: center;
-    padding: 50px;
+.project-header {
+  text-align: center;
+  padding: 50px;
+}
+
+  .project-header h1 {
+      font-size: 2.5em;
+      color: #000000;
   }
 
-    .project-header h1 {
-        font-size: 2.5em;
-        color: #000000;
-    }
-
-    .project-header p {
-        font-size: 1.2em;
-        color: #000000;
-    }
-
-  /* Project tiles styling */
-  .project {
-      /* border: 1px solid #ddd; */
-      border-radius: 8px;
-      padding: 16px;
-      margin: 20px;
-      text-align: left;
-      background-color: #d1d1d1b0;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+  .project-header p {
+      font-size: 1.2em;
+      color: #000000;
   }
 
-    .project img {
-        max-width: 30%;
-        max-height: 15em;
-        margin-left: 20px;
-        border-radius: 5px;
-        order: 2;
-    }
+/* Project tiles styling */
+.project {
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px;
+    text-align: left;
+    background-color: #d1d1d1b0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-    .project h3 {
-        font-size: 1.5em;
-        margin: 16px 0;
-        order: 1;
-        color: #000000;
-    }
-
-    .project p {
-        font-size: 1em;
-        color: #3E3E3E;
-        order: 1;
-    }
-
-    .read-more {
-      display: inline-block;
-      margin-top: 8px;
-      padding: 8px 16px;
-      background-color: #500000;
-      color: white;
-      text-decoration: none;
+  .project img {
+      max-width: 30%;
+      max-height: 15em;
+      margin-left: 20px;
       border-radius: 5px;
+      order: 2;
+  }
+
+  .project h3 {
+      font-size: 1.5em;
+      margin: 16px 0;
       order: 1;
-    }
-
-    .text-link {
-      color: #500000;
-      text-decoration: underline;
-    }
-
-  /* Projects Section styling */
-  .research-section, .other-projects-section {
-    padding: 20px;
+      color: #000000;
   }
 
-  .research-section h2, .other-projects-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #000000;
+  .project p {
+      font-size: 1em;
+      color: #3E3E3E;
+      order: 1;
   }
+
+  .read-more {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 16px;
+    background-color: #500000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    order: 1;
+  }
+
+  .text-link {
+    color: #500000;
+    text-decoration: underline;
+  }
+
+/* Projects Section styling */
+.research-section, .other-projects-section {
+  padding: 20px;
+}
+
+.research-section h2, .other-projects-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #000000;
+  margin-left: 20px;
+}
 
 /* Resume page styling */
+.resume-header h2 {
+  margin-bottom: 20px;
+  margin-left: 40px;
+  font-size: 2em;
+}
+.skills-content {
+  border-radius: 8px;
+  padding: 16px;
+  margin: 20px;
+  text-align: left;
+  background-color: #d1d1d1b0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills * {
+  text-align: left;
+}
+
+.resume-embed {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Service page styling */
+.service-header {
+  
+}
