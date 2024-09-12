@@ -6,12 +6,12 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="theme1.css">
+        <link id="css_style" rel="stylesheet" href="./theme1.css" />
     </head>
     <body>
 
         <div class="header">
-            <a class="logo">&#128077</a>
+            <button onclick="toggleCSS()" type="button" class="logo" id="toggle-style-button">&#128077</button>
             <div class="header-right">
               <a href="./index.html">Home</a>
               <a href="./projects.html">Projects</a>
@@ -50,5 +50,13 @@
             </div>
         </div>
         
+        <footer>
+            <div class="footer">
+                <h2>Contact Links</h2>
+                <p><a href="mailto:kanedong@tamu.edu">Email</a> |  <a href="https://www.linkedin.com/in/kane-dong">LinkedIn</a> | <a href="https://github.com/Iridium01">Github</a></p>
+            </div>
+        </footer>
+
+        <script src="./toggle.js"></script>
     </body>
 </html>
